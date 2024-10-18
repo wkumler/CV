@@ -1,8 +1,14 @@
 ---
 title: "William Kumler"
-output:
-  word_document: default
+knit: (function(inputFile, encoding) {
+    rmarkdown::render(input = inputFile,
+      encoding = encoding,
+      output_format = c("word_document", "github_document"),
+      output_file = c("william_kumler.docx", "README.md")
+    )
+  })
 ---
+
 
 # William Kumler
 5515 15th Ave NE, Apt #301
