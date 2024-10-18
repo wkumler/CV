@@ -3,19 +3,33 @@ title: "William Kumler"
 knit: (function(inputFile, encoding) {
     rmarkdown::render(input = inputFile,
       encoding = encoding,
-      output_format = c("word_document", "github_document", "pdf_document"),
+      output_format = c("word_document", "github_document", "vitae::awesomecv"),
       output_file = c("william_kumler.docx", "README.md", "william_kumler.pdf")
     )
   })
+name: William
+surname: Kumler
+position: "Ph.D. Candidate"
+address: "5515 15th Ave NE, Apt #301"
+email: "wkumler@uw.edu"
+github: wkumler
 ---
 
-5515 15th Ave NE, Apt #301  
+```{r setup, include=FALSE}
+library(knitr)
+```
 
-Email: wkumler@uw.edu
-
-GitHub: [wkumler](https://github.com/wkumler) 
-
-ORCiD: [0000-0002-5022-8009](https://orcid.org/0000-0002-5022-8009)
+```{r, echo=FALSE, results='asis'}
+if(opts_knit$get("rmarkdown.pandoc.to")%in%c("docx", "gfm+tex_math_dollars-yaml_metadata_block")){
+  cat(paste(
+    "5515 15th Ave NE, Apt #301",
+    "Email: wkumler@uw.edu",
+    "GitHub: [wkumler](https://github.com/wkumler)",
+    "ORCiD: [0000-0002-5022-8009](https://orcid.org/0000-0002-5022-8009)",
+    sep = "\n\n"
+  ))
+}
+```
 
 ---
 
