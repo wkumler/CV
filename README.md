@@ -40,21 +40,27 @@ California, Berkeley
 
 ## Work Experience
 
+**Ph.D. student**, Ingalls Lab, University of Washington, Seattle
+*2019 - 2025* - Published papers on marine microbial metabolomics with a
+focus on automated and untargeted methodologies - Developed existing and
+novel mass spectrometry tools for analysis and visualization - Fieldwork
+in the North Pacific Subtropical Gyre and California Current - Mentored
+graduate and undergraduate students in metabolomics
+
 **Lab Manager**, Koehl Lab, University of California, Berkeley  
 *2018 - 2019*  
-- Maintained live cultures of choanoflagellates and protozoa.  
-- Managed and organized lab members, materials, and safety protocols.  
-- Assisted visiting researchers with statistical analyses.  
-- Tutored undergraduates in ImageJ and R programming.
+- Maintained live cultures of choanoflagellates and protozoa - Managed
+and organized lab members, materials, and safety protocols - Assisted
+visiting researchers with statistical analyses - Tutored undergraduates
+in ImageJ and R programming
 
 **Lab Manager**, Edwards Lab, University of California, Berkeley  
 *2018 - 2019*  
-- Planned and set up laboratory experiments.  
-- Performed HPLC-MS sample preparation and analysis using Thermo Fusion
-Lumos ID-X.  
-- Developed and maintained a lipidomics pipeline for data handling and
-statistical analysis.  
-- Educated undergraduates in R programming and SLURM cluster usage.
+- Planned and set up laboratory experiments - Performed HPLC-MS sample
+preparation and analysis using Thermo Fusion Lumos ID-X - Developed and
+maintained a lipidomics pipeline for data handling and statistical
+analysis - Educated undergraduates in R programming and SLURM cluster
+usage
 
 ------------------------------------------------------------------------
 
