@@ -1,10 +1,13 @@
 William Kumler
 ================
 
-# William Kumler
+5515 15th Ave NE, Apt \#301
 
-5515 15th Ave NE, Apt \#301 Email: <wkumler@uw.edu> \| GitHub:
-[wkumler](https://github.com/wkumler) \| ORCiD: 0000-0002-5022-8009
+Email: <wkumler@uw.edu>
+
+GitHub: [wkumler](https://github.com/wkumler)
+
+ORCiD: [0000-0002-5022-8009](https://orcid.org/0000-0002-5022-8009)
 
 ------------------------------------------------------------------------
 
