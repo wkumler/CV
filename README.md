@@ -112,12 +112,12 @@ In review:
   Data Analysis. Presented as a poster at the *2024 Annual International
   Conference of the Metabolomics Society*, Osaka, Japan.
   <DOI:10.5281/zenodo.13347220>.
-- S. Garcia, F.X. Ferrer-González, J.S. Sacks, W. Kumler, L.T. Carlson,
-  & A.E. Ingalls (2024). Characterizing the quality and quantity of
-  metabolite production in phytoplankton cultures and the environment
-  through endo- and exometabolomics. Presented as a poster at the Gordon
-  Research Conference on Marine Microbes, Les Diablerets, Switzerland.
-  Poster \#8.
+- S. Garcia, F.X. Ferrer-González, J.S. Sacks, **W. Kumler**, L.T.
+  Carlson, & A.E. Ingalls (2024). Characterizing the quality and
+  quantity of metabolite production in phytoplankton cultures and the
+  environment through endo- and exometabolomics. Presented as a poster
+  at the Gordon Research Conference on Marine Microbes, Les Diablerets,
+  Switzerland. Poster \#8.
 - Y. Wang, **W. Kumler**, I. Kern, E. Seelen, S.G. John, & A.E. Ingalls
   (2023). Community metabolomes respond to nutrient supply in a mesocosm
   study in the North Pacific Subtropical Gyre. Presented as a poster at
