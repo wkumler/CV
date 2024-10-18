@@ -77,6 +77,20 @@ statistical analysis.
   Eukaryotic Microbiology*, 67(5), 555-565.
   [DOI:10.1111/jeu.12808](https://doi.org/10.1111/jeu.12808)
 
+In review:
+
+- **W. Kumler**, W. Qin, R.A. Lundeen, B. Barone, L.T. Carlson & A.E.
+  Ingalls (in review with *Frontiers in Marine Science*). Metabolites
+  reflect variability introduced by mesoscale eddies in the North
+  Pacific Subtropical Gyre.
+- E.A. Seelen, S.J. Gleich, **W. Kumler**, H.S. Anderson, X. Bian, K.M.
+  Bjorkman, D.A. Caron, S.T. Dyhrman, S. Ferrón, Z.V. Finkel, S.T.
+  Haley, Y. Hy, A.E. Ingalls, A.J. Irwin, D.M. Karl, K.P. Kong, D.
+  Lowenstein, A. Salazar Estrada, E. Townsend, J.C. Tracey, K.
+  Turk-Kubo, B.A.S. Van Mooy & S.G. John (in review with *Nature
+  Communications*). A tale of two nutrients: how nitrogen and phosphorus
+  differentially control marine biomass production and stoichiometry.
+
 ------------------------------------------------------------------------
 
 ## Conference Proceedings
@@ -89,7 +103,12 @@ statistical analysis.
   Data Analysis. Presented as a poster at the *2024 Annual International
   Conference of the Metabolomics Society*, Osaka, Japan.
   <DOI:10.5281/zenodo.13347220>.
-- S. Garcia (?) @ GRC
+- S. Garcia, F.X. Ferrer-González, J.S. Sacks, W. Kumler, L.T. Carlson,
+  & A.E. Ingalls (2024). Characterizing the quality and quantity of
+  metabolite production in phytoplankton cultures and the environment
+  through endo- and exometabolomics. Presented as a poster at the Gordon
+  Research Conference on Marine Microbes, Les Diablerets, Switzerland.
+  Poster \#8.
 - Y. Wang, **W. Kumler**, I. Kern, E. Seelen, S.G. John, & A.E. Ingalls
   (2023). Community metabolomes respond to nutrient supply in a mesocosm
   study in the North Pacific Subtropical Gyre. Presented as a poster at
