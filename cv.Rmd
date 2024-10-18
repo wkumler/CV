@@ -10,19 +10,34 @@ knit: (function(inputFile, encoding) {
 name: William
 surname: Kumler
 position: "Ph.D. Candidate"
-address: "5515 15th Ave NE, Apt #301"
+address: "Seattle, WA"
 email: "wkumler@uw.edu"
 github: wkumler
 ---
 
 ```{r setup, include=FALSE}
 library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+word <- opts_knit$get("rmarkdown.pandoc.to")=="docx"
+md <- opts_knit$get("rmarkdown.pandoc.to")=="gfm+tex_math_dollars-yaml_metadata_block"
+alignment <- ifelse(word, "c", "l")
 ```
 
-```{r, echo=FALSE, results='asis'}
-if(opts_knit$get("rmarkdown.pandoc.to")%in%c("docx", "gfm+tex_math_dollars-yaml_metadata_block")){
+```{r, results='asis', include=FALSE}
+if(word|md){
+  print(kable(data.frame(location="Seattle, WA"), col.names=NULL, align = alignment))
+  metadata <- data.frame(
+    email="wkumler@uw.edu",
+    github="[github.com/wkumler](github.com/wkumler)",
+    orcid="[ORCiD](https://orcid.org/0000-0002-5022-8009)"
+  )
+  print(kable(metadata, col.names = NULL, align=alignment))
+}
+```
+
+```{r, results='asis'}
+if(word|md){
   cat(paste(
-    "5515 15th Ave NE, Apt #301",
     "Email: wkumler@uw.edu",
     "GitHub: [wkumler](https://github.com/wkumler)",
     "ORCiD: [0000-0002-5022-8009](https://orcid.org/0000-0002-5022-8009)",
