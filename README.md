@@ -24,6 +24,8 @@ analysis.
 **Ph.D. in Chemical Oceanography**, University of Washington  
 *2019 - 2025*
 
+- Data Science Option
+
 **M.Sc. in Oceanography**, University of Washington  
 *2019 - 2023*
 
@@ -45,25 +47,18 @@ California, Berkeley
   untargeted methodologies
 - Developed existing and novel mass spectrometry tools for analysis and
   visualization
-- Fieldwork in the North Pacific Subtropical Gyre and California Current
 - Mentored graduate and undergraduate students in metabolomics
-
-**Lab Manager**, Koehl Lab, University of California, Berkeley  
-*2018 - 2019*
-
-- Maintained live cultures of choanoflagellates and protozoa
-- Managed and organized lab members, materials, and safety protocols
-- Assisted visiting researchers with statistical analyses
-- Tutored undergraduates in ImageJ and R programming
+- Trained on Thermo Q Exactive HF with HILIC and reversed-phase
+  chromatographies
+- Will receive training on Thermo Orbitrap Astral in early 2025
 
 **Lab Manager**, Edwards Lab, University of California, Berkeley  
 *2018 - 2019*
 
-- Performed HPLC-MS sample preparation and analysis using Thermo Fusion
-  Lumos ID-X
 - Developed and maintained a lipidomics pipeline for data handling and
   statistical analysis
 - Educated undergraduates in R programming and SLURM cluster usage
+- Assisted with Thermo Fusion Lumos ID-X purchase and installation
 
 ------------------------------------------------------------------------
 
@@ -100,73 +95,21 @@ In review:
   Communications*). A tale of two nutrients: how nitrogen and phosphorus
   differentially control marine biomass production and stoichiometry.
 
-------------------------------------------------------------------------
+In prep:
 
-## Conference Proceedings
+- **W. Kumler** & A.E. Ingalls. Quality assurance via bulk feature
+  labeling for untargeted mass spectrometry data. Intended for
+  *Analytical Chemistry* in 2025.
+  <https://github.com/wkumler/squallms/blob/manuscript/paper.md>
 
-- J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M.
-  Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C.
-  Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H.
-  Hecht, S. Neumann, M. Witting, S. Gibb, & L. Gatto (2024). An Open
-  Software Development-based Ecosystem of R Packages for Metabolomics
-  Data Analysis. Presented as a poster at the *2024 Annual International
-  Conference of the Metabolomics Society*, Osaka, Japan.
-  <DOI:10.5281/zenodo.13347220>.
-- S. Garcia, F.X. Ferrer-González, J.S. Sacks, **W. Kumler**, L.T.
-  Carlson, & A.E. Ingalls (2024). Characterizing the quality and
-  quantity of metabolite production in phytoplankton cultures and the
-  environment through endo- and exometabolomics. Presented as a poster
-  at the Gordon Research Conference on Marine Microbes, Les Diablerets,
-  Switzerland. Poster \#8.
-- Y. Wang, **W. Kumler**, I. Kern, E. Seelen, S.G. John, & A.E. Ingalls
-  (2023). Community metabolomes respond to nutrient supply in a mesocosm
-  study in the North Pacific Subtropical Gyre. Presented as a poster at
-  the *2023 Ocean Sciences Meeting*, New Orleans, LA. Poster
-  \#OB14B-0682.
-- **W. Kumler**, L.T. Carlson, & A.E. Ingalls plus the PARAGON team
-  (2023). Metabolic fate of dissolved nitrogen in the NPSG. Presented as
-  a poster at the *2023 Ocean Sciences Meeting*, New Orleans, LA. Poster
-  \#OB14B-0702
-- **W. Kumler**, L.T. Carlson, & A.E. Ingalls plus the PARAGON team
-  (2023). Metabolic fate of dissolved nitrogen during PARAGON. Presented
-  as a poster at the *2023 Simons Collaboration on Ocean Processes and
-  Ecology*, New York, NY.
-- **W. Kumler** (2022). Unmasking the POC/Ness Monster: Depth and
-  Mesoscale Features Drive Variability in Particulate Metabolite
-  Profiles of the MESOSCOPE transect. Presented as a virtual poster at
-  the *2022 Simons Collaboration on Ocean Processes and Ecology*, New
-  York, NY.
-- **W. Kumler** (2022). Depth, diel, and eddy direction: The effect of
-  three environmental factors on metabolite composition in the North
-  Pacific Subtropical Gyre. Presented as a virtual poster at the *2021
-  Simons Collaboration on Ocean Processes and Ecology*, New York, NY.
-- **W. Kumler** & A.E. Ingalls (2021). RaMS: R-based Access to
-  Mass-Spectrometry Data. Presented as a poster at the *2021 Annual
-  Conference of the Metabolomics Society (virtual)*. Poster \#298.
-- **W. Kumler**, H. Fredricks, J. Ossolinski, A. Allen, K.
-  Thamatrakoln, K. Bidle, B. Van Mooy, & B. Edwards (2019). Sign of the
-  times: the lipid signature of a collapsing phytoplankton bloom.
-  Presented as a poster at the *2019 Aquatic Sciences Meeting*, San
-  Juan, Puerto Rico. Poster \#411.
-- **W. Kumler** & M.A.R. Koehl (2018). Evolution of multicellularity:
-  Capture of unicellular vs colonial choanoflagellates by a protozoan
-  predator. Presented as a poster at the *2018 Society of Integrative
-  and Comparative Biology Annual Meeting*, San Francisco, CA. Poster
-  \#P1-115.
+- **W. Kumler**, S. LaRue & A.E. Ingalls. Efficacy of SQL databases for
+  storage, rapid search and retrieval of chromatographic mass
+  spectrometry data. Intended for *Journal of Proteome Research*
+  in 2025. <https://github.com/wkumler/mzsql>.
 
-------------------------------------------------------------------------
-
-## Talks Given
-
-- **Building a robust model of peak quality for untargeted
-  mass-spectrometry** (2023)
-  - Seminar given at UW’s eScience Seminar (watch
-    [here](https://www.youtube.com/watch?v=fNtp53o1wqQ&ab_channel=UWeScienceInstitute))
-  - Seminar given at UW’s Quantitative Science Seminar
-- **Data Visualization** (2022)
-  - Workshop led at the Graduate Climate Conference
-- **Profiling R code and identifying performance bottlenecks** (2019)
-  - Invited speaker at FSH 507 (Super-advanced R)
+- **W. Kumler**, R. Foreman, L.T. Carlson, D. Karl & A.E. Ingalls.
+  Metabolic flux and fate of <sup>15</sup>N depends on form in the North
+  Pacific Subtropical Gyre. No journal yet selected.
 
 ------------------------------------------------------------------------
 
@@ -185,15 +128,52 @@ In review:
 
 ------------------------------------------------------------------------
 
-## Awards
+## Talks Given
 
-- Achievement Rewards for College Scientists
-  ([ARCS](https://www.arcsfoundation.org/))
-- [Mary C. Landsteiner Student
-  Award](https://www.ocean.washington.edu/story/Mary_LandsteinerScholar)
+- **Building a robust model of peak quality for untargeted
+  mass-spectrometry**  
+  *Apr. 2023*
+  - Seminar given at UW’s eScience Seminar (Recording available
+    [here](https://www.youtube.com/watch?v=fNtp53o1wqQ&ab_channel=UWeScienceInstitute))
+  - Seminar given at UW’s Quantitative Science Seminar
+- **Data Visualization**  
+  *Oct. 2022*
+  - Workshop led at the Graduate Climate Conference
+- **Profiling R code and identifying performance bottlenecks**  
+  *Nov. 2019*
+  - Invited speaker at FSH 507 (Super-advanced R)
+
+------------------------------------------------------------------------
+
+## Conference Proceedings
+
+- **W. Kumler**, L.T. Carlson & A.E. Ingalls plus the PARAGON team
+  (2024). Differences in 15N use by source during PARAGON.
+- J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M.
+  Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C.
+  Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H.
+  Hecht, S. Neumann, M. Witting, S. Gibb, & L. Gatto (2024). An Open
+  Software Development-based Ecosystem of R Packages for Metabolomics
+  Data Analysis.
+- S. Garcia, F.X. Ferrer-González, J.S. Sacks, **W. Kumler**, L.T.
+  Carlson, & A.E. Ingalls (2024). Characterizing the quality and
+  quantity of metabolite production in phytoplankton cultures and the
+  environment through endo- and exometabolomics.
+- **W. Kumler**, L.T. Carlson, & A.E. Ingalls plus the PARAGON team
+  (2023). Metabolic fate of dissolved nitrogen in the NPSG.
+- **W. Kumler** (2022). Unmasking the POC/Ness Monster: Depth and
+  Mesoscale Features Drive Variability in Particulate Metabolite
+  Profiles of the MESOSCOPE transect.
+- **W. Kumler** & A.E. Ingalls (2021). RaMS: R-based Access to
+  Mass-Spectrometry Data.
+- **W. Kumler**, H. Fredricks, J. Ossolinski, A. Allen, K.
+  Thamatrakoln, K. Bidle, B. Van Mooy, & B. Edwards (2019). Sign of the
+  times: the lipid signature of a collapsing phytoplankton bloom.
 
 ------------------------------------------------------------------------
 
 ## References
 
-Available upon request.
+- Dr. Anitra E. Ingalls, Ph.D. Advisor. aingalls@uw.edu, (206) 940-6755
+
+- Laura T. Carlson, Ingalls Lab Manager. truxal@uw.edu, (412) 554-5093
