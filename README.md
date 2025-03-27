@@ -69,6 +69,11 @@ California, Berkeley
 
 ## Publications
 
+- **W. Kumler**, W. Qin, R.A. Lundeen, B. Barone, L.T. Carlson & A.E.
+  Ingalls (2024). Metabolites reflect variability introduced by
+  mesoscale eddies in the North Pacific Subtropical Gyre. *Frontiers in
+  Marine Science*, 11:1481409.
+  [DOI:10.3389/fmars.2024.1481409](https://doi.org/10.3389/fmars.2024.1481409)
 - **Kumler, W.**, Hazelton, B.J. & Ingalls, A.E. (2023). Picky with
   peakpicking: assessing chromatographic peak quality with simple
   metrics in metabolomics. *BMC Bioinformatics*, 24:404.
@@ -88,10 +93,6 @@ California, Berkeley
 
 In review:
 
-- **W. Kumler**, W. Qin, R.A. Lundeen, B. Barone, L.T. Carlson & A.E.
-  Ingalls (in review with *Frontiers in Marine Science*). Metabolites
-  reflect variability introduced by mesoscale eddies in the North
-  Pacific Subtropical Gyre.
 - E.A. Seelen, S.J. Gleich, **W. Kumler**, H.S. Anderson, X. Bian, K.M.
   Bjorkman, D.A. Caron, S.T. Dyhrman, S. Ferrón, Z.V. Finkel, S.T.
   Haley, Y. Hy, A.E. Ingalls, A.J. Irwin, D.M. Karl, K.P. Kong, D.
@@ -104,6 +105,20 @@ In review:
 
 ## Conference Proceedings
 
+- **W. Kumler** & A.E. Ingalls. Databases are a speedy, small, and
+  simple solution for mass-spectrometry data storage and access.
+  Upcoming presentation at the *2025 Annual International Conference of
+  the Metabolomics Society*, Prague, Czechia.
+- P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M.
+  Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer.
+  xcms at 20 and still in Peak form: Now anchoring a complete ecosystem
+  for metabolomics data preprocessing and analysis. Upcoming
+  presentation at the *2025 Annual International Conference of the
+  Metabolomics Society*, Prague, Czechia.
+- **W. Kumler**, L.T. Carlson & A.E. Ingalls plus the PARAGON team.
+  Differences in <sup>15</sup>N use by source during the PARAGON cruise
+  in the NPSG. Presented as a poster at the *2024 Simons Collaboration
+  on Ocean Processes and Ecology*, New York, NY.
 - J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M.
   Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C.
   Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H.

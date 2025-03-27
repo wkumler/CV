@@ -100,20 +100,25 @@ Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomi
 
 ## Publications
 
+- **W. Kumler**, W. Qin, R.A. Lundeen, B. Barone, L.T. Carlson & A.E. Ingalls (2024). Metabolites reflect variability introduced by mesoscale eddies in the North Pacific Subtropical Gyre. _Frontiers in Marine Science_, 11:1481409. [DOI:10.3389/fmars.2024.1481409](https://doi.org/10.3389/fmars.2024.1481409)
 - **Kumler, W.**, Hazelton, B.J. & Ingalls, A.E. (2023). Picky with peakpicking: assessing chromatographic peak quality with simple metrics in metabolomics. _BMC Bioinformatics_, 24:404. [DOI:10.1186/s12859-023-05533-4](https://doi.org/10.1186/s12859-023-05533-4)
 - **Kumler, W.** & Ingalls, A.E. (2022). Tidy data neatly resolves mass-spectrometry's ragged arrays. _R Journal_, 14(3), 193-202. [DOI:10.32614/RJ-2022-050](https://doi.org/10.32614/RJ-2022-050)
 - Boysen, A.K., Durham, B.P., **Kumler, W.**, et al. (2022). Glycine betaine uptake and metabolism in marine microbial communities. _Environmental Microbiology_, 24(5), 2380-2403. [DOI:10.1111/1462-2920.16020](https://doi.org/10.1111/1462-2920.16020)
 - **Kumler, W.E.**, Jorge, J., Kim, P.M., et al. (2020). Does formation of multicellular colonies by choanoflagellates affect their susceptibility to capture by passive protozoan predators? _Journal of Eukaryotic Microbiology_, 67(5), 555-565. [DOI:10.1111/jeu.12808](https://doi.org/10.1111/jeu.12808)
 
+
 In review:
 
-- **W. Kumler**, W. Qin, R.A. Lundeen, B. Barone, L.T. Carlson & A.E. Ingalls (in review with _Frontiers in Marine Science_). Metabolites reflect variability introduced by mesoscale eddies in the North Pacific Subtropical Gyre.
 - E.A. Seelen, S.J. Gleich, **W. Kumler**, H.S. Anderson, X. Bian, K.M. Bjorkman, D.A. Caron, S.T. Dyhrman, S. Ferrón, Z.V. Finkel, S.T. Haley, Y. Hy, A.E. Ingalls, A.J. Irwin, D.M. Karl, K.P. Kong, D. Lowenstein, A. Salazar Estrada, E. Townsend, J.C. Tracey, K. Turk-Kubo, B.A.S. Van Mooy & S.G. John (in review with _Nature Communications_). A tale of two nutrients: how nitrogen and phosphorus differentially control marine biomass production and stoichiometry.
 
 ---
 
 ## Conference Proceedings
 
+- **W. Kumler** & A.E. Ingalls. Databases are a speedy, small, and simple solution for mass-spectrometry data storage and access. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
+- P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M. Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer. xcms at 20 and still in Peak form: Now anchoring a complete ecosystem for
+metabolomics data preprocessing and analysis. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
+- **W. Kumler**, L.T. Carlson & A.E. Ingalls plus the PARAGON team. Differences in <sup>15</sup>N use by source during the PARAGON cruise in the NPSG. Presented as a poster at the _2024 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
 - J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M. Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C. Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H. Hecht, S. Neumann, M. Witting, S. Gibb, & L. Gatto (2024). An Open Software Development-based Ecosystem of R Packages for Metabolomics Data Analysis. Presented as a poster at the _2024 Annual International Conference of the Metabolomics Society_, Osaka, Japan. DOI:10.5281/zenodo.13347220.
 - S. Garcia, F.X. Ferrer-González, J.S. Sacks, **W. Kumler**, L.T. Carlson, & A.E. Ingalls (2024). Characterizing the quality and quantity of metabolite production in phytoplankton cultures and the environment through endo- and exometabolomics. Presented as a poster at the Gordon Research Conference on Marine Microbes, Les Diablerets, Switzerland. Poster #8.
 - Y. Wang, **W. Kumler**, I. Kern, E. Seelen, S.G. John, & A.E. Ingalls (2023). Community metabolomes respond to nutrient supply in a mesocosm study in the North Pacific Subtropical Gyre. Presented as a poster at the _2023 Ocean Sciences Meeting_, New Orleans, LA. Poster #OB14B-0682.
