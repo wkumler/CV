@@ -3,8 +3,8 @@ title: "William Kumler"
 knit: (function(inputFile, encoding) {
     rmarkdown::render(input = inputFile,
       encoding = encoding,
-      output_format = c("word_document", "github_document", "vitae::awesomecv"),
-      output_file = c("william_kumler.docx", "README.md", "william_kumler.pdf")
+      output_format = "vitae::awesomecv",
+      output_file = "william_kumler.pdf"
     )
   })
 name: William
@@ -18,79 +18,45 @@ github: wkumler
 ```{r setup, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
-word <- opts_knit$get("rmarkdown.pandoc.to")=="docx"
-md <- opts_knit$get("rmarkdown.pandoc.to")=="gfm+tex_math_dollars-yaml_metadata_block"
-latex <- opts_knit$get("rmarkdown.pandoc.to")=="latex"
-
-eleg_space <- function(){
-  word <- opts_knit$get("rmarkdown.pandoc.to")=="docx"
-  md <- opts_knit$get("rmarkdown.pandoc.to")=="gfm+tex_math_dollars-yaml_metadata_block"
-  # No idea why ifelse works when if;else doesn't but ok
-  ifelse(md|word, ifelse(word, " \n<br>", " \n"), "\\hfill")
-}
-```
-
-```{r, results='asis', include=FALSE}
-alignment <- ifelse(word, "c", "l")
-if(word|md){
-  print(kable(data.frame(location="Seattle, WA"), col.names=NULL, align = alignment))
-  metadata <- data.frame(
-    email="wkumler@uw.edu",
-    github="[github.com/wkumler](github.com/wkumler)",
-    orcid="[ORCiD](https://orcid.org/0000-0002-5022-8009)"
-  )
-  print(kable(metadata, col.names = NULL, align=alignment))
-}
-```
-
-```{r, results='asis'}
-if(word|md){
-  cat(paste(
-    "Email: wkumler@uw.edu",
-    "GitHub: [wkumler](https://github.com/wkumler)",
-    "ORCiD: [0000-0002-5022-8009](https://orcid.org/0000-0002-5022-8009)",
-    sep = "\n\n"
-  ))
-}
 ```
 
 ---
 
 ## Professional Summary
 
-Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomics under Dr. Anitra Ingalls. Expertise in automated and untargeted liquid chromatography mass spectrometry, with significant experience developing computational tools for mass spectrometry data analysis.
+Chemical oceanographer with a data science specialization completing Ph.D. in July 2025. Expertise in automated and untargeted liquid chromatography mass spectrometry and experience developing computational tools for mass spectrometry data analysis and visualization. Fieldwork consisting of cruise planning, three months total ship time, and both wetlab and drylab operations onboard during the Simons Collaboration on Ocean Processes and Ecology (SCOPE) project.
 
 ---
 
 ## Education
 
-**Ph.D. in Chemical Oceanography**, University of Washington `r eleg_space()` _2019 - 2025_
+**Ph.D. in Chemical Oceanography**, University of Washington \\hfill _2019 - 2025_
 
-**M.Sc. in Oceanography**, University of Washington `r eleg_space()` _2019 - 2023_
+**M.Sc. in Oceanography**, University of Washington \\hfill _2019 - 2023_
 
-**B.A. in Marine Science**, University of California, Berkeley `r eleg_space()` _2014 - 2018_
+**B.A. in Marine Science**, University of California, Berkeley \\hfill _2014 - 2018_
 
-**B.S. in Molecular and Environmental Biology**, University of California, Berkeley `r eleg_space()` _2014 - 2018_
+**B.S. in Molecular and Environmental Biology**, University of California, Berkeley \\hfill _2014 - 2018_
 
 ---
 
 ## Work Experience
 
-**Ph.D. student**, Ingalls Lab, University of Washington, Seattle `r eleg_space()` _2019 - 2025_
+**Ph.D. student**, Ingalls Lab, University of Washington, Seattle \\hfill _2019 - 2025_
 
 - Published papers on marine microbial metabolomics with a focus on untargeted methodologies
 - Developed existing and novel mass spectrometry tools for analysis and visualization
 - Fieldwork in the North Pacific Subtropical Gyre and California Current
 - Mentored graduate and undergraduate students in metabolomics
 
-**Lab Manager**, Koehl Lab, University of California, Berkeley `r eleg_space()` _2018 - 2019_
+**Lab Manager**, Koehl Lab, University of California, Berkeley \\hfill _2018 - 2019_
 
 - Maintained live cultures of choanoflagellates and protozoa
 - Managed and organized lab members, materials, and safety protocols
 - Assisted visiting researchers with statistical analyses
 - Tutored undergraduates in ImageJ and R programming
 
-**Lab Manager**, Edwards Lab, University of California, Berkeley `r eleg_space()` _2018 - 2019_
+**Lab Manager**, Edwards Lab, University of California, Berkeley \\hfill _2018 - 2019_
 
 - Performed HPLC-MS sample preparation and analysis using Thermo Fusion Lumos ID-X
 - Developed and maintained a lipidomics pipeline for data handling and statistical analysis
@@ -109,14 +75,17 @@ Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomi
 
 In review:
 
+- **W. Kumler**, S. LaRue & A.E. Ingalls (in review with _ACS Journal of Proteom Research_). Databases are an effective and efficient method for storage and access of mass-spectrometry data. Preprint available on [GitHub](https://github.com/wkumler/mzsql/tree/manuscript_things).
 - E.A. Seelen, S.J. Gleich, **W. Kumler**, H.S. Anderson, X. Bian, K.M. Bjorkman, D.A. Caron, S.T. Dyhrman, S. Ferrón, Z.V. Finkel, S.T. Haley, Y. Hy, A.E. Ingalls, A.J. Irwin, D.M. Karl, K.P. Kong, D. Lowenstein, A. Salazar Estrada, E. Townsend, J.C. Tracey, K. Turk-Kubo, B.A.S. Van Mooy & S.G. John (in review with _Nature Communications_). A tale of two nutrients: how nitrogen and phosphorus differentially control marine biomass production and stoichiometry.
+- P. Louail, C. Brunius, M.G. Aloy, **W. Kumler**, N. Storz, J. Stanstrup, H. Treutler, P. Vangeenderhuysen, M. Witting, S. Neumann & J. Rainer (in review with _ACS Analytical Chemistry_). xcms at 20 and still in peak form. 
+
 
 ---
 
 ## Conference Proceedings
 
-- **W. Kumler** & A.E. Ingalls. Databases are a speedy, small, and simple solution for mass-spectrometry data storage and access. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
-- P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M. Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer. xcms at 20 and still in Peak form: Now anchoring a complete ecosystem for
+- **W. Kumler** & A.E. Ingalls. Databases are a speedy, small, and simple solution for mass-spectrometry data storage and access. Upcoming poster at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
+- P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M. Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer. xcms at 20 and still in peak form: Now anchoring a complete ecosystem for
 metabolomics data preprocessing and analysis. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
 - **W. Kumler**, L.T. Carlson & A.E. Ingalls plus the PARAGON team. Differences in <sup>15</sup>N use by source during the PARAGON cruise in the NPSG. Presented as a poster at the _2024 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
 - J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M. Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C. Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H. Hecht, S. Neumann, M. Witting, S. Gibb, & L. Gatto (2024). An Open Software Development-based Ecosystem of R Packages for Metabolomics Data Analysis. Presented as a poster at the _2024 Annual International Conference of the Metabolomics Society_, Osaka, Japan. DOI:10.5281/zenodo.13347220.
@@ -132,36 +101,61 @@ metabolomics data preprocessing and analysis. Upcoming presentation at the _2025
 
 ---
 
+## Technical Projects
+
+- **MESOSCOPE visualization application**: Data aggregation and interactive visualization for three cruises during the 2015-2018 MESOSCOPE project (Microbial Ecology of the Surface Ocean - Simons Collaboration on Ocean Processes and Ecology). Used for multi-lab dataset overlap comparison and manuscript preparation at the 2022 SCOPE meeting in New York. Emphasis was placed on realtime data ingestion via APIs and webscraping. Application deployed at https://wkumler.shinyapps.io/mswebapp/.
+- **RaMS**: R package for reading and tidying mass-spectrometry data. Available on [CRAN](https://cran.r-project.org/package=RaMS) and [GitHub](https://github.com/wkumler/RaMS).
+- **pylgrams**: Python language gloss of the RaMS package. Available on [PyPI](https://pypi.org/project/pylgrams/) and [GitHub](https://github.com/wkumler/pylgrams).
+- **squallms**: R package for interactive multi-file annotation of chromatographic feature quality. Available on [Bioconductor](https://bioconductor.org/packages/devel/bioc/html/squallms.html) and [GitHub](https://github.com/wkumler/squallms).
+- **planetan**: Personal project implementing a 3D multiplayer R Shiny game with a ruleset similar to Catan. Available on [GitHub](https://github.com/wkumler/planetan) and as a live demo at https://wkumler.shinyapps.io/planetan. Will be submitted to the R Shiny Contest 2025.
+
+---
+
+
 ## Talks Given
 
 - **Building a robust model of peak quality for untargeted mass-spectrometry** (2023)  
     - Seminar given at UW's eScience Seminar (watch [here](https://www.youtube.com/watch?v=fNtp53o1wqQ&ab_channel=UWeScienceInstitute))
     - Seminar given at UW's Quantitative Science Seminar
 
-- **Data Visualization** (2022)  
+- **Data Visualization** (2022)
     - Workshop led at the Graduate Climate Conference
 
 - **Profiling R code and identifying performance bottlenecks** (2019)  
     - Invited speaker at FSH 507 (Super-advanced R)
 
----
+--- 
 
-## Technical Projects
+## Volunteer efforts
 
-- **RaMS**: R package for reading and tidying mass-spectrometry data. Available on [CRAN](https://cran.r-project.org/package=RaMS) and [GitHub](https://github.com/wkumler/RaMS).
-- **pylgrams**: Python language gloss of the RaMS package. Available on [PyPI](https://pypi.org/project/pylgrams/) and [GitHub](https://github.com/wkumler/pylgrams).
-- **squallms**: R package for interactive multi-file annotation of chromatographic feature quality. Available on [Bioconductor](https://bioconductor.org/packages/devel/bioc/html/squallms.html) and [GitHub](https://github.com/wkumler/squallms).
+- eScience Institute Software Carpentries instructor \\hfill _2023 - 2025_
+    - Both R and Python tracks
+    - Emphasis on teaching data access and visualization
+- Data Science in Oceanography Summer Program \\hfill _2022 - 2024_
+    - Two-week in-person workshop for college students considering graduate school and interested in expanding their data science skills
+    - Lectured on chemical oceanography and access to publicly available datasets
+        - Simons Collaborative Marine Atlas Project
+        - Hawaii Ocean Time-series Data Organization & Graphical System
+        - Metabolomics Workbench
+- SEAS Annual Aquatic Sciences Open House \\hfill _2022 - 2025_
+    - Organized booths for approximately 20+ individual labs
+    - Facilitated media coverage and 1,000+ attendees from the greater Seattle area
+    - Ran Marine Microbial Research Center booth with natural seawater visualization under a microscope
+- Seattle Aquarium \\hfill _2019 - 2025_
+    - 100 hours of engagement and interpretation at evening events
+    - Particular emphasis on stewardship events such as Splash!
 
----
+## Ship time (?)
 
-## Awards
-
-- Achievement Rewards for College Scientists ([ARCS](https://www.arcsfoundation.org/))
-- [Mary C. Landsteiner Student Award](https://www.ocean.washington.edu/story/Mary_LandsteinerScholar)
+- Oceanus
+- Yellowfin
+- Kilo Moana
+- Thomas G. Thompson
 
 ---
 
 ## References
 
-Available upon request.
+Dr. Anitra E. Ingalls, Ph.D. Advisor. aingalls@uw.edu, (206) 940-6755
 
+Laura T. Carlson, Ingalls Lab Manager. truxal@uw.edu, (412) 554-5093
