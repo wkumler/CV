@@ -1,12 +1,7 @@
 ---
 title: "William Kumler"
-knit: (function(inputFile, encoding) {
-    rmarkdown::render(input = inputFile,
-      encoding = encoding,
-      output_format = "vitae::awesomecv",
-      output_file = "william_kumler.pdf"
-    )
-  })
+output:
+  vitae::cv_document
 name: William
 surname: Kumler
 position: "Ph.D. Candidate"
