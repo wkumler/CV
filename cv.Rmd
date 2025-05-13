@@ -1,13 +1,14 @@
 ---
 title: "William Kumler"
 output:
-  vitae::cv_document
+  vitae::awesomecv
 name: William
 surname: Kumler
 position: "Ph.D. Candidate"
 address: "Seattle, WA"
 email: "wkumler@uw.edu"
 github: wkumler
+linkedin: william-kumler-15b09b365
 ---
 
 ```{r setup, include=FALSE}
@@ -19,43 +20,61 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Professional Summary
 
-Chemical oceanographer with a data science specialization completing Ph.D. in July 2025. Expertise in automated and untargeted liquid chromatography mass spectrometry and experience developing computational tools for mass spectrometry data analysis and visualization. Fieldwork consisting of cruise planning, three months total ship time, and both wetlab and drylab operations onboard during the Simons Collaboration on Ocean Processes and Ecology (SCOPE) project.
+Chemical oceanographer with a data science specialization completing Ph.D. in July 2025. Expertise in automated and untargeted liquid chromatography mass spectrometry and experience developing computational tools for mass spectrometry data analysis and visualization. Fieldwork consisting of cruise planning, two months total ship time, and both wetlab and drylab operations onboard during the Simons Collaboration on Ocean Processes and Ecology (SCOPE) project.
 
 ---
 
 ## Education
 
-**Ph.D. in Chemical Oceanography**, University of Washington \\hfill _2019 - 2025_
+**Ph.D. in Chemical Oceanography**, University of Washington \hfill _2019 - 2025_
 
-**M.Sc. in Oceanography**, University of Washington \\hfill _2019 - 2023_
+**M.Sc. in Oceanography**, University of Washington \hfill _2019 - 2023_
 
-**B.A. in Marine Science**, University of California, Berkeley \\hfill _2014 - 2018_
+**B.A. in Marine Science**, University of California, Berkeley \hfill _2014 - 2018_
 
-**B.S. in Molecular and Environmental Biology**, University of California, Berkeley \\hfill _2014 - 2018_
+**B.S. in Molecular and Environmental Biology**, University of California, Berkeley \hfill _2014 - 2018_
 
 ---
 
 ## Work Experience
 
-**Ph.D. student**, Ingalls Lab, University of Washington, Seattle \\hfill _2019 - 2025_
+**Ph.D. student**, Ingalls Lab, University of Washington, Seattle \hfill _2019 - 2025_
 
 - Published papers on marine microbial metabolomics with a focus on untargeted methodologies
 - Developed existing and novel mass spectrometry tools for analysis and visualization
 - Fieldwork in the North Pacific Subtropical Gyre and California Current
 - Mentored graduate and undergraduate students in metabolomics
 
-**Lab Manager**, Koehl Lab, University of California, Berkeley \\hfill _2018 - 2019_
+**Lab Manager**, Koehl Lab, University of California, Berkeley \hfill _2018 - 2019_
 
 - Maintained live cultures of choanoflagellates and protozoa
 - Managed and organized lab members, materials, and safety protocols
 - Assisted visiting researchers with statistical analyses
 - Tutored undergraduates in ImageJ and R programming
 
-**Lab Manager**, Edwards Lab, University of California, Berkeley \\hfill _2018 - 2019_
+**Lab Manager**, Edwards Lab, University of California, Berkeley \hfill _2018 - 2019_
 
 - Performed HPLC-MS sample preparation and analysis using Thermo Fusion Lumos ID-X
 - Developed and maintained a lipidomics pipeline for data handling and statistical analysis
 - Educated undergraduates in R programming and SLURM cluster usage
+
+---
+
+## Technical skills
+
+- **Coding:** Ten years of experience in R. Expertise with full-pipeline construction including data ingestion, tidying, analysis, visualization, and sharing via reproducible documents, interactive web applications, and R packages published to both CRAN and Bioconductor. Three years of experience with Python largely centered around reverse-engineering mass-spectrometry file formats. Recent experience with database management systems and HTML/CSS. Extensive collaboration with international groups via Github.
+- **Scientific analysis:** Univariate and multivariate statistics with a focus on permutational methods and machine learning (random forests, SOMs, autoencoders) resulting in four first-author papers and 12 national and international conference presentations.
+- **Fieldwork and ship time:** Estimated 50 days at sea across both multi-week cruises and short-term time series sampling, one cruise as chief scientist. Experience with cruise planning, CTD operations, float deployments and recoveries, incubations, and real-time data ingestion and visualization. Two weeks of land-based fieldwork involving sample collection and small-volume chemostat-style mesocosms.
+
+---
+
+## Technical Projects
+
+- **MESOSCOPE visualization application**: Data aggregation and interactive visualization for three cruises during the 2015-2018 MESOSCOPE project (Microbial Ecology of the Surface Ocean - Simons Collaboration on Ocean Processes and Ecology). Used for multi-lab dataset overlap comparison and manuscript preparation at the 2022 SCOPE meeting in New York. Emphasis was placed on realtime data ingestion via APIs and webscraping. Application deployed at https://wkumler.shinyapps.io/mswebapp/.
+- **RaMS**: R package for reading and tidying mass-spectrometry data. Available on [CRAN](https://cran.r-project.org/package=RaMS) and [GitHub](https://github.com/wkumler/RaMS).
+- **pylgrams**: Python language gloss of the RaMS package. Available on [PyPI](https://pypi.org/project/pylgrams/) and [GitHub](https://github.com/wkumler/pylgrams).
+- **squallms**: R package for interactive multi-file annotation of chromatographic feature quality. Available on [Bioconductor](https://bioconductor.org/packages/devel/bioc/html/squallms.html) and [GitHub](https://github.com/wkumler/squallms).
+- **planetan**: Personal project implementing a 3D multiplayer R Shiny game with a ruleset similar to Catan. Available on [GitHub](https://github.com/wkumler/planetan) and as a live demo at https://wkumler.shinyapps.io/planetan. Will be submitted to the R Shiny Contest 2025.
 
 ---
 
@@ -83,69 +102,45 @@ In review:
 - P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M. Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer. xcms at 20 and still in peak form: Now anchoring a complete ecosystem for
 metabolomics data preprocessing and analysis. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
 - **W. Kumler**, L.T. Carlson & A.E. Ingalls plus the PARAGON team. Differences in <sup>15</sup>N use by source during the PARAGON cruise in the NPSG. Presented as a poster at the _2024 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
-- J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M. Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C. Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H. Hecht, S. Neumann, M. Witting, S. Gibb, & L. Gatto (2024). An Open Software Development-based Ecosystem of R Packages for Metabolomics Data Analysis. Presented as a poster at the _2024 Annual International Conference of the Metabolomics Society_, Osaka, Japan. DOI:10.5281/zenodo.13347220.
 - S. Garcia, F.X. Ferrer-González, J.S. Sacks, **W. Kumler**, L.T. Carlson, & A.E. Ingalls (2024). Characterizing the quality and quantity of metabolite production in phytoplankton cultures and the environment through endo- and exometabolomics. Presented as a poster at the Gordon Research Conference on Marine Microbes, Les Diablerets, Switzerland. Poster #8.
 - Y. Wang, **W. Kumler**, I. Kern, E. Seelen, S.G. John, & A.E. Ingalls (2023). Community metabolomes respond to nutrient supply in a mesocosm study in the North Pacific Subtropical Gyre. Presented as a poster at the _2023 Ocean Sciences Meeting_, New Orleans, LA. Poster #OB14B-0682.
 - **W. Kumler**, L.T. Carlson, & A.E. Ingalls plus the PARAGON team (2023). Metabolic fate of dissolved nitrogen in the NPSG. Presented as a poster at the _2023 Ocean Sciences Meeting_, New Orleans, LA. Poster #OB14B-0702
-- **W. Kumler**, L.T. Carlson, & A.E. Ingalls plus the PARAGON team (2023). Metabolic fate of dissolved nitrogen during PARAGON. Presented as a poster at the _2023 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
 - **W. Kumler** (2022). Unmasking the POC/Ness Monster: Depth and Mesoscale Features Drive Variability in Particulate Metabolite Profiles of the MESOSCOPE transect. Presented as a virtual poster at the _2022 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
-- **W. Kumler** (2022). Depth, diel, and eddy direction: The effect of three environmental factors on metabolite composition in the North Pacific Subtropical Gyre. Presented as a virtual poster at the _2021 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
 - **W. Kumler** & A.E. Ingalls (2021). RaMS: R-based Access to Mass-Spectrometry Data. Presented as a poster at the _2021 Annual Conference of the Metabolomics Society (virtual)_. Poster #298.
 - **W. Kumler**, H. Fredricks, J. Ossolinski, A. Allen, K. Thamatrakoln, K. Bidle, B. Van Mooy, & B. Edwards (2019). Sign of the times: the lipid signature of a collapsing phytoplankton bloom. Presented as a poster at the _2019 Aquatic Sciences Meeting_, San Juan, Puerto Rico. Poster #411.
 - **W. Kumler** & M.A.R. Koehl (2018). Evolution of multicellularity: Capture of unicellular vs colonial choanoflagellates by a protozoan predator. Presented as a poster at the _2018 Society of Integrative and Comparative Biology Annual Meeting_, San Francisco, CA. Poster #P1-115.
 
 ---
 
-## Technical Projects
-
-- **MESOSCOPE visualization application**: Data aggregation and interactive visualization for three cruises during the 2015-2018 MESOSCOPE project (Microbial Ecology of the Surface Ocean - Simons Collaboration on Ocean Processes and Ecology). Used for multi-lab dataset overlap comparison and manuscript preparation at the 2022 SCOPE meeting in New York. Emphasis was placed on realtime data ingestion via APIs and webscraping. Application deployed at https://wkumler.shinyapps.io/mswebapp/.
-- **RaMS**: R package for reading and tidying mass-spectrometry data. Available on [CRAN](https://cran.r-project.org/package=RaMS) and [GitHub](https://github.com/wkumler/RaMS).
-- **pylgrams**: Python language gloss of the RaMS package. Available on [PyPI](https://pypi.org/project/pylgrams/) and [GitHub](https://github.com/wkumler/pylgrams).
-- **squallms**: R package for interactive multi-file annotation of chromatographic feature quality. Available on [Bioconductor](https://bioconductor.org/packages/devel/bioc/html/squallms.html) and [GitHub](https://github.com/wkumler/squallms).
-- **planetan**: Personal project implementing a 3D multiplayer R Shiny game with a ruleset similar to Catan. Available on [GitHub](https://github.com/wkumler/planetan) and as a live demo at https://wkumler.shinyapps.io/planetan. Will be submitted to the R Shiny Contest 2025.
-
----
-
-
 ## Talks Given
 
-- **Building a robust model of peak quality for untargeted mass-spectrometry** (2023)  
+- **Building a robust model of peak quality for untargeted mass-spectrometry** \hfill _2023_
     - Seminar given at UW's eScience Seminar (watch [here](https://www.youtube.com/watch?v=fNtp53o1wqQ&ab_channel=UWeScienceInstitute))
     - Seminar given at UW's Quantitative Science Seminar
 
-- **Data Visualization** (2022)
+- **Data Visualization** \hfill _2022_
     - Workshop led at the Graduate Climate Conference
 
-- **Profiling R code and identifying performance bottlenecks** (2019)  
+- **Profiling R code and identifying performance bottlenecks** \hfill _2019_
     - Invited speaker at FSH 507 (Super-advanced R)
 
 --- 
 
 ## Volunteer efforts
 
-- eScience Institute Software Carpentries instructor \\hfill _2023 - 2025_
+- eScience Institute Software Carpentries instructor \hfill _2023 - 2025_
     - Both R and Python tracks
     - Emphasis on teaching data access and visualization
-- Data Science in Oceanography Summer Program \\hfill _2022 - 2024_
+- Data Science in Oceanography Summer Program \hfill _2022 - 2024_
     - Two-week in-person workshop for college students considering graduate school and interested in expanding their data science skills
     - Lectured on chemical oceanography and access to publicly available datasets
-        - Simons Collaborative Marine Atlas Project
-        - Hawaii Ocean Time-series Data Organization & Graphical System
-        - Metabolomics Workbench
-- SEAS Annual Aquatic Sciences Open House \\hfill _2022 - 2025_
+- SEAS Annual Aquatic Sciences Open House \hfill _2022 - 2025_
     - Organized booths for approximately 20+ individual labs
     - Facilitated media coverage and 1,000+ attendees from the greater Seattle area
     - Ran Marine Microbial Research Center booth with natural seawater visualization under a microscope
-- Seattle Aquarium \\hfill _2019 - 2025_
-    - 100 hours of engagement and interpretation at evening events
-    - Particular emphasis on stewardship events such as Splash!
-
-## Ship time (?)
-
-- Oceanus
-- Yellowfin
-- Kilo Moana
-- Thomas G. Thompson
+- Seattle Aquarium \hfill _2019 - 2025_
+    - 100+ hours of engagement and interpretation at evening events
+    - Particular emphasis on stewardship events such as Splash!, which brought in over half a million dollars from donors
 
 ---
 
