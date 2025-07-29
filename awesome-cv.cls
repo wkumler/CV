@@ -84,14 +84,28 @@
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks,unicode]{hyperref}
+\RequirePackage[unicode]{hyperref}
+\usepackage{color}
+\definecolor{darkblue}{RGB}{0,0,139}
 \hypersetup{%
+  colorlinks=true,
+  linkcolor=darkblue,
+  citecolor=darkblue,
+  urlcolor=darkblue,
   pdftitle={},
   pdfauthor={},
   pdfsubject={},
   pdfkeywords={}
 }
 
+% Avoid text overflow
+\sloppy
+\emergencystretch=3em
+% Reduce hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\righthyphenmin=4
+\lefthyphenmin=4
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations

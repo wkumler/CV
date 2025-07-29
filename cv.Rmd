@@ -9,7 +9,7 @@ knit: (function(inputFile, encoding) {
   })
 name: William
 surname: Kumler
-position: "Ph.D. Candidate"
+position: "Postdoctoral scholar"
 address: "Seattle, WA"
 email: "wkumler@uw.edu"
 github: wkumler
@@ -58,13 +58,15 @@ if(word|md){
 
 ## Professional Summary
 
-Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomics under Dr. Anitra Ingalls. Expertise in automated and untargeted liquid chromatography mass spectrometry, with significant experience developing computational tools for mass spectrometry data analysis.
+Postdoc with a PhD in chemical oceanography focusing on marine microbial metabolomics under Dr. Anitra Ingalls. Expertise in automated and untargeted liquid chromatography mass spectrometry, with significant experience developing computational tools for mass spectrometry data analysis and visualization. Fieldwork consisting of cruise planning, two months total ship time, and both wet and dry lab operations onboard during the Simons Collaboration on Ocean Processes and Ecology (SCOPE) project.
 
 ---
 
 ## Education
 
 **Ph.D. in Chemical Oceanography**, University of Washington `r eleg_space()` _2019 - 2025_
+
+  - First graduate in the Data Science Option
 
 **M.Sc. in Oceanography**, University of Washington `r eleg_space()` _2019 - 2023_
 
@@ -78,10 +80,12 @@ Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomi
 
 **Ph.D. student**, Ingalls Lab, University of Washington, Seattle `r eleg_space()` _2019 - 2025_
 
-- Published papers on marine microbial metabolomics with a focus on untargeted methodologies
+- Published papers on marine microbial metabolomics with a focus on automated and untargeted methods
 - Developed existing and novel mass spectrometry tools for analysis and visualization
 - Fieldwork in the North Pacific Subtropical Gyre and California Current
 - Mentored graduate and undergraduate students in metabolomics
+- Trained on Thermo Q Exactive HF and Orbitrap Astral with HILIC and reversed-phase chromatographies
+
 
 **Lab Manager**, Koehl Lab, University of California, Berkeley `r eleg_space()` _2018 - 2019_
 
@@ -92,7 +96,6 @@ Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomi
 
 **Lab Manager**, Edwards Lab, University of California, Berkeley `r eleg_space()` _2018 - 2019_
 
-- Performed HPLC-MS sample preparation and analysis using Thermo Fusion Lumos ID-X
 - Developed and maintained a lipidomics pipeline for data handling and statistical analysis
 - Educated undergraduates in R programming and SLURM cluster usage
 
@@ -100,24 +103,25 @@ Ph.D. candidate in chemical oceanography focusing on marine microbial metabolomi
 
 ## Publications
 
+- E.A. Seelen, S.J. Gleich, **W. Kumler**, H.S. Anderson, X. Bian, K.M. Bjorkman, D.A. Caron, S.T. Dyhrman, S. Ferrón, Z.V. Finkel, S.T. Haley, Y. Hy, A.E. Ingalls, A.J. Irwin, D.M. Karl, K.P. Kong, D. Lowenstein, A. Salazar Estrada, E. Townsend, J.C. Tracey, K. Turk-Kubo, B.A.S. Van Mooy & S.G. John (2025). Nitrogen and phosphorus differentially control marine biomass production and stoichiometry. _Nature Communications_, 16, 5713. [DOI:10.1038/s41467-025-61061-0](https://doi.org/10.1038/s41467-025-61061-0)
 - **W. Kumler**, W. Qin, R.A. Lundeen, B. Barone, L.T. Carlson & A.E. Ingalls (2024). Metabolites reflect variability introduced by mesoscale eddies in the North Pacific Subtropical Gyre. _Frontiers in Marine Science_, 11:1481409. [DOI:10.3389/fmars.2024.1481409](https://doi.org/10.3389/fmars.2024.1481409)
 - **Kumler, W.**, Hazelton, B.J. & Ingalls, A.E. (2023). Picky with peakpicking: assessing chromatographic peak quality with simple metrics in metabolomics. _BMC Bioinformatics_, 24:404. [DOI:10.1186/s12859-023-05533-4](https://doi.org/10.1186/s12859-023-05533-4)
 - **Kumler, W.** & Ingalls, A.E. (2022). Tidy data neatly resolves mass-spectrometry's ragged arrays. _R Journal_, 14(3), 193-202. [DOI:10.32614/RJ-2022-050](https://doi.org/10.32614/RJ-2022-050)
 - Boysen, A.K., Durham, B.P., **Kumler, W.**, et al. (2022). Glycine betaine uptake and metabolism in marine microbial communities. _Environmental Microbiology_, 24(5), 2380-2403. [DOI:10.1111/1462-2920.16020](https://doi.org/10.1111/1462-2920.16020)
 - **Kumler, W.E.**, Jorge, J., Kim, P.M., et al. (2020). Does formation of multicellular colonies by choanoflagellates affect their susceptibility to capture by passive protozoan predators? _Journal of Eukaryotic Microbiology_, 67(5), 555-565. [DOI:10.1111/jeu.12808](https://doi.org/10.1111/jeu.12808)
 
-
 In review:
 
-- E.A. Seelen, S.J. Gleich, **W. Kumler**, H.S. Anderson, X. Bian, K.M. Bjorkman, D.A. Caron, S.T. Dyhrman, S. Ferrón, Z.V. Finkel, S.T. Haley, Y. Hy, A.E. Ingalls, A.J. Irwin, D.M. Karl, K.P. Kong, D. Lowenstein, A. Salazar Estrada, E. Townsend, J.C. Tracey, K. Turk-Kubo, B.A.S. Van Mooy & S.G. John (in review with _Nature Communications_). A tale of two nutrients: how nitrogen and phosphorus differentially control marine biomass production and stoichiometry.
+- **Kumler, W.**, LaRue, S., & Ingalls, A.E. (In review with _Journal of Proteome Research_) Databases are an effective and efficient method for storage and access of mass-spectrometry data.
+
+- P. Louail, C. Brunius, **W. Kumler**, N. Storz, J. Stanstrup, H. Treutler, P. Vangeenderhuysen, M. Witting, S. Neumann, & J. Rainer. (In review with _Analytical Chemistry_) xcms at 20 and still in peak form: Anchoring a complete metabolomics data preprocessing and analysis software ecosystem.
 
 ---
 
 ## Conference Proceedings
 
-- **W. Kumler** & A.E. Ingalls. Databases are a speedy, small, and simple solution for mass-spectrometry data storage and access. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
-- P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M. Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer. xcms at 20 and still in Peak form: Now anchoring a complete ecosystem for
-metabolomics data preprocessing and analysis. Upcoming presentation at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
+- **W. Kumler** & A.E. Ingalls. Databases are a speedy, small, and simple solution for mass-spectrometry data storage and access. Presented as a poster at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
+- P. Louail, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, M. Witting, S. Neumann, RforMassSpectrometry contributors & J. Rainer. xcms at 20 and still in Peak form: Now anchoring a complete ecosystem for metabolomics data preprocessing and analysis. Presented at the _2025 Annual International Conference of the Metabolomics Society_, Prague, Czechia.
 - **W. Kumler**, L.T. Carlson & A.E. Ingalls plus the PARAGON team. Differences in <sup>15</sup>N use by source during the PARAGON cruise in the NPSG. Presented as a poster at the _2024 Simons Collaboration on Ocean Processes and Ecology_, New York, NY.
 - J. Rainer, P. Louail, A. Vicini, R. Gine, J. Badia, M. Stravs, M. Garcia-Aloy, C. Huber, L. Salzer, J. Stanstrup, N. Shahaf, C. Panse, T. Naake, **W. Kumler**, P. Vangeenderhuysen, C. Brunius, H. Hecht, S. Neumann, M. Witting, S. Gibb, & L. Gatto (2024). An Open Software Development-based Ecosystem of R Packages for Metabolomics Data Analysis. Presented as a poster at the _2024 Annual International Conference of the Metabolomics Society_, Osaka, Japan. DOI:10.5281/zenodo.13347220.
 - S. Garcia, F.X. Ferrer-González, J.S. Sacks, **W. Kumler**, L.T. Carlson, & A.E. Ingalls (2024). Characterizing the quality and quantity of metabolite production in phytoplankton cultures and the environment through endo- and exometabolomics. Presented as a poster at the Gordon Research Conference on Marine Microbes, Les Diablerets, Switzerland. Poster #8.
@@ -134,23 +138,35 @@ metabolomics data preprocessing and analysis. Upcoming presentation at the _2025
 
 ## Talks Given
 
-- **Building a robust model of peak quality for untargeted mass-spectrometry** (2023)  
+- **Building a robust model of peak quality for untargeted mass-spectrometry** `r eleg_space()` _2023_  
     - Seminar given at UW's eScience Seminar (watch [here](https://www.youtube.com/watch?v=fNtp53o1wqQ&ab_channel=UWeScienceInstitute))
     - Seminar given at UW's Quantitative Science Seminar
 
-- **Data Visualization** (2022)  
+- **Data Visualization** `r eleg_space()` _2022_
     - Workshop led at the Graduate Climate Conference
 
-- **Profiling R code and identifying performance bottlenecks** (2019)  
+- **Profiling R code and identifying performance bottlenecks** `r eleg_space()` _2019_  
     - Invited speaker at FSH 507 (Super-advanced R)
 
 ---
 
 ## Technical Projects
 
-- **RaMS**: R package for reading and tidying mass-spectrometry data. Available on [CRAN](https://cran.r-project.org/package=RaMS) and [GitHub](https://github.com/wkumler/RaMS).
+- **RaMS**: R package for reading and tidying mass-spectrometry data. Now implemented in Metabolomics Workbench. Available on [CRAN](https://cran.r-project.org/package=RaMS) and [GitHub](https://github.com/wkumler/RaMS).
 - **pylgrams**: Python language gloss of the RaMS package. Available on [PyPI](https://pypi.org/project/pylgrams/) and [GitHub](https://github.com/wkumler/pylgrams).
 - **squallms**: R package for interactive multi-file annotation of chromatographic feature quality. Available on [Bioconductor](https://bioconductor.org/packages/devel/bioc/html/squallms.html) and [GitHub](https://github.com/wkumler/squallms).
+- **MESOSCOPE visualization application**: Data aggregation and interactive visualization for three cruises during the 2015‑2018 MESOSCOPE project (Microbial Ecology of the Surface Ocean ‑ Simons Collaboration on Ocean Processes and Ecology). Used for multi‑lab dataset overlap comparison and manuscript preparation at the 2022 SCOPE meeting in New York.  Emphasis was placed on realtime data ingestion via APIs and web‑scraping. Application deployed at https://wkumler/shinyapps.io/mswebapp.
+- **planetan**: Personal project implementing a 3D multiplayer R Shiny game with a ruleset similar to Settlers of Catan. Available on GitHub and as a live demo at https://wkumler.shinyapps.io/planetan. Will be submitted to the R Shiny Contest 2025.
+
+---
+
+## Technical skills
+
+- **Coding**: Ten years of experience in R. Expertise with full‑pipeline construction including data ingestion, tidying, analysis, visualization, and sharing via reproducible documents, interactive web applications, and R packages published to both CRAN and Bioconductor. Three years of experience with Python largely centered around reverse‑engineering mass‑spectrometry file formats. Recent experience with database management systems and HTML/CSS. Extensive collaboration with international groups via Github.
+
+- **Scientific analysis**: Univariate and multivariate statistics with a focus on dimensionality reduction, permutational methods, false discovery rate estimation, and machine learning (regularized regression, random forests, autoencoders).
+
+- **Fieldwork and ship time**: Estimated 50 days at sea across both multi‑week cruises and short‑term time series sampling, one cruise as chief scientist. Experience with cruise planning, CTD operations, float deployments and recoveries, incubations, and real‑time data ingestion and visualization. Two weeks of land‑based fieldwork involving sample collection and small‑volume chemostat‑style mesocosms.
 
 ---
 
@@ -161,7 +177,27 @@ metabolomics data preprocessing and analysis. Upcoming presentation at the _2025
 
 ---
 
+## Volunteer work
+
+  - eScience Institute Software Carpentries instructor `r eleg_space()` _2023 - 2025_
+    - Both R and Python tracks
+    - Emphasis on teaching data access and visualization
+  - Data Science in Oceanography Summer Program `r eleg_space()` _2022 - 2024_
+    - Two-week in-person workshop for college students considering graduate school and interested in expanding their data science skills
+    - Lectured on chemical oceanography and access to publicly available datasets
+  - SEAS Annual Aquatic Sciences Open House `r eleg_space()` _2022 - 2025_
+    - Organized booths for 20+ individual labs
+    - Facilitated media coverage and 1,000+ attendees yearly from the greater Seattle area
+    - Ran the Marine Microbial Research Center booth with natural seawater visualization under a microscope
+  - Seattle Aquarium interpreter `r eleg_space()` _2019 - 2025_
+    - 100+ hours of engagement and interpretation at evening events
+    - Particular emphasis on stewardship events such as Splash!, which brought in over half a million dollars from donors
+
+---
+
 ## References
 
-Available upon request.
+Dr. Anitra E. Ingalls, Ph.D. Advisor. aingalls@uw.edu, (206) 940-6755
+
+Laura T. Carlson, Ingalls Lab Manager. truxal@uw.edu, (412) 554-5093
 
